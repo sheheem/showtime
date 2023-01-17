@@ -1,17 +1,17 @@
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg fixed-top" [ngStyle]="navbg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">NETFLIX</a>
+    <a class="navbar-brand" routerLink="">NETFLIX</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" routerLink="">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Search</a>
+          <a class="nav-link" routerLink="search">Search</a>
         
       </ul>
     </div>
@@ -20,7 +20,7 @@
 
 <!-- navbar end -->
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem eos ab officia tempora at consectetur similique unde, quasi vitae magni dicta, incidunt tenetur, autem fugit nostrum. Eligendi, quos nisi?</p>
+
 
 
 <router-outlet></router-outlet>
